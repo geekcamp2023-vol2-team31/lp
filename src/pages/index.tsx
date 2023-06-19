@@ -5,6 +5,7 @@ import {Inter} from "next/font/google";
 import {Section1} from "@/components/section-1";
 import {Section2} from "@/components/section-2";
 import {Developer} from "@/components/developer";
+import {Footer} from "@/components/footer";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Section1/>
         <Section2/>
         <Developer/>
+        <Footer/>
       </main>
     </>
   )

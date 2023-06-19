@@ -6,7 +6,7 @@ const Developer = () => {
     <Card src={"/developer-mgn901.png"} username={"めがね901"} bio={"設計が好き。アーキテクチャもUIも。"}/>
     <Card src={"/developer-xpadev.jpg"} username={"xpadev"} bio={"そこら辺の学生"}/>
     <Card src={"/developer-yajima.jpg"} username={"矢島 創一"} bio={"和室に住んでいる"}/>
-    <Card src={"/developer-mgn901.png"} username={"きとけん"} bio={"栄養士エンジニア、鯖味噌が好物"}/>
+    <Card src={"/developer-kitoken.png"} username={"きとけん"} bio={"お寿司がすし"}/>
     <Card src={"/developer-satojin.png"} username={"佐藤 仁"} bio={"栄養士エンジニア、鯖味噌が好物"}/>
   </div>
 }

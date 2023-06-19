@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.scss'
 import {Header} from "@/components/header";
 import {Inter} from "next/font/google";
 import {Section1} from "@/components/section-1";
+import {Section2} from "@/components/section-2";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <Header/>
         <Section1/>
+        <Section2/>
       </main>
     </>
   )
